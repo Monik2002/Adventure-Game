@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text-Based Adventure Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="name-input-container">
+     <h1>Welcome to the Maze Adventure Game</h1>
+    <p>Let's start with your name:</p>
+    <input type="text" id="player-name-input" placeholder="Enter your name">
+    <button onclick="startAdventure()">Start the Adventure</button>
+  </div>
+  
+  <div id="game-container" style="display: none;">
+    <!-- Adventure game content will be dynamically added here -->
+  </div>
+
+  <script src="confetti.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
